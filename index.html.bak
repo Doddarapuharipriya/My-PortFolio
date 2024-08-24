@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header1"> <a href="#" class="logo1">Portfolio</a>
+      <nav class="navbar"> <a href="#" class="top1" style="--i:1">Home</a> <a
+
+          href="#about" style="--i:2">About</a> <a href="#skills" style="--i:3">Skill</a>
+        <a href="#services" style="--i:5">Services</a> <a href="#portfolio" style="--i:4">Projects</a>
+        <a href="#contact" style="--i:5">Contact</a> </nav>
+    </header>
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Sai Nithin Garre</h1>
+        <h3>And I'm a <span id="element"></span></h3>
+        <p>with extensive experience for over 3 years. <br>
+          expertise is to create Dynamic Webpage with custum Animation, FrontEnd
+          Design with BackEnd Development too! </p>
+        <div class="home-sci"> <a href="https://www.facebook.com/sainithin.garre.1?mibextid=ZbWKwL"
+
+            style="--i:6"><i class="bx bxl-facebook"></i></a> <a href="https://www.instagram.com/sai_nithin_garre/?igsh=MWxsNmw2MW90OXRpdw%3D%3D"
+
+            style="--i:7"><i class="bx bxl-instagram"></i></a> <a href="#" style="--i:8"><i
+
+              class="bx bxl-whatsapp"></i></a> <a href="#" style="--i:9"><i
+
+              class="bx bxl-linkedin"></i></a> </div>
+        <a href="#" class="btn-box">More About Me</a> </div>
+      <span class="home-imgHover"></span> </section>
+    <section class="about" id="about">
+      <div class="about-img"> <img src="images/background2.png"> </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>MERN Stack Developer</h4>
+        <p> Being a learner, I have a great passion to explore new skills ,
+          increase my domain of knowledge and make more experiences .From a
+          student having basic Knowledge about coding to being a CS undergrad
+          with a CGPA of 8.32 , I always get curious when the things come upon
+          Innovation, Experiment and Exploration. Mostly I got my eyes on the
+          developmental zone and domain like Web Developer is also comes under
+          my area of interest. Besides tech travelling, listening music and
+          paintings are my escape. </p>
+        <a href="https://drive.google.com/file/d/1BD_3pRxUjm4ejvWNzIUieWbehifqSQJE/view?usp=drive_link"
+
+          class="btn-box">More About Me</a> </div>
+    </section>
+    <section class="services">
+      <div class="services" id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Services</span></h1>
+          <div class="services-list">
+            <div> <i class="bx bx-code" style="color:#00eeff"></i>
+              <h2>Webpage Designer</h2>
+              <p>I am a webpage designer with over two years of professional
+                experience in creating dynamic, user-friendly webpages for a
+                variety of companies. I specialize in designing visually
+                appealing and intuitive user interfaces, utilizing my expertise
+                in HTML, CSS, JavaScript, and modern web design tools. My strong
+                understanding of responsive design and UX/UI best practices
+                allows me to consistently deliver high-quality web designs that
+                enhance user engagement and satisfaction.</p>
+              <a href="#" class="read">Read More</a> </div>
+            <div> <i class="bx bx-crop" style="color:#00eeff"></i>
+              <h2>Oracle Cloud Infrastructure </h2>
+              <p>I am an Oracle Cloud Infrastructure 2024 Generative AI
+                Certified Professional, with certification valid until July 31,
+                2026. My certification highlights my proficiency in leveraging
+                Oracle's cloud platform, particularly in deploying and managing
+                AI-driven solutions. This expertise complements my hands-on
+                experience in cloud computing from my internship at AWS, where I
+                gained extensive knowledge of cloud infrastructure, services,
+                and best practices. My ability to integrate cloud technologies
+                with various projects ensures scalability, security, and
+                efficiency, providing comprehensive solutions tailored to modern
+                business needs.</p>
+              <a href="#" class="read">Read More</a> </div>
+            <div> <i class="bx bxl-apple" style="color:#00eeff"></i>
+              <h2>Competitive Programmer</h2>
+              <p>I am actively enhancing my problem-solving skills by tackling
+                Data Structures and Algorithms (DSA) challenges on LeetCode
+                using C++ and C. So far, I have successfully solved over 50 DSA
+                problems and continue to dedicate time to improving my
+                proficiency. This ongoing practice sharpens my coding abilities
+                and keeps me up-to-date with efficient algorithms and data
+                handling techniques, which I apply to my web design and cloud
+                computing projects.</p>
+              <a href="#" class="read">Read More</a> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section class="skills">
+      <div class="container1" id="skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="Technical-bars">
+          <div class="bar"><i class="bx bxl-html5" style="color:#c95d2e"></i>
+            <div class="info"> <span>HTML</span> </div>
+            <div class="progess-line html"> <span></span> </div>
+          </div>
+          <div class="bar"><i class="bx bxl-css3" style="color:#147bbc"></i>
+            <div class="info"> <span>CSS</span> </div>
+            <div class="progess-line css"> <span></span> </div>
+          </div>
+          <div class="bar"><i class="bx bxl-javascript" style="color:#b0bc1e"></i>
+            <div class="info"> <span>Javascript</span> </div>
+            <div class="progess-line javascript"> <span></span> </div>
+          </div>
+          <div class="bar"><i class="bx bxl-react" style="color:#69bcbc"></i>
+            <div class="info"> <span>React</span> </div>
+            <div class="progess-line react"> <span></span> </div>
+          </div>
+          <div class="bar"><i class="bx bxl-c-plus-plus" style="color: rgba(0, 0, 255, 0.551)"></i>
+            <div class="info"> <span>C\C++</span> </div>
+            <div class="progess-line cplus"> <span></span> </div>
+          </div>
+          <div class="bar"><i class="bx bxl-python" style="color:#306998"></i>
+            <div class="info"> <span>Python</span> </div>
+            <div class="progess-line python"> <span></span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle> </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Creativity</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle> </svg>
+            <div class="percentage">65%</div>
+            <div class="text">Communication</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle> </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle> </svg>
+            <div class="percentage">85%</div>
+            <div class="text">TeamWork</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div id="portfolio">
+        <div class="main-text" id="project">
+          <h2>Latest <span>Project</span></h2>
+          <div class="portfolio-content">
+            <div class="row"> <img src="images/project1.png">
+              <div class="layer">
+                <h5> Web Page Designer</h5>
+                <p>Looking to collaborate on your next project? Visit my page to
+                  learn more and get in touch. I look forward to work with you!</p>
+                <a href="newproj/index.html"><i class="bx bx-show" style="color:#00eeff"></i></a>
+              </div>
+            </div>
+            <div class="row"> <img src="images/project2.png">
+              <div class="layer">
+                <h5> Stroke Anticipating Mechanism Using Machine Learning</h5>
+                <p>This project, presented at the SIMATS Engineering Tech Star
+                  Summit 2024, focuses on developing a highly accurate automated
+                  mechanism for stroke anticipation using an Enhanced Random
+                  Forest algorithm. </p>
+                <a href="https://drive.google.com/file/d/141JnH7b5a0TgytnqlUb6OhP8aeFxnGuN/view?usp=sharing"><i
+
+                    class="bx bx-cloud" style="color:#00eeff"></i></a> </div>
+            </div>
+            <div class="row"> <img src="images/project3.png">
+              <div class="layer">
+                <h5> Digital Library Information Management System</h5>
+                <p>This website is the Digital Library Information Management
+                  System for Saveetha University. It provides an automated and
+                  digital platform for managing libraries, allowing users to
+                  search for books, authors, and publishers within the
+                  university's library system. </p>
+                <a href="https://github.com/sainithingarre/Library-Management-System"><i
+
+                    class="bx bx-show" style="color:#00eeff"></i></a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact<span> Me</span></h2>
+        <h4>Lets Work Together</h4>
+        <p>I'm always excited to connect with new people and explore potential
+          collaborations. Whether you have a question about my work, a project
+          idea, or just want to chat about web development, cloud computing, or
+          data structures and algorithms, I'd love to hear from you! You can
+          reach out to me via email at <a rel="noopener">sngarre@gmail.com</a>,
+          or connect with me through my <a rel="noopener" target="_new" href="https://www.linkedin.com/in/garre-sai-nithin-kumar-b0239922b/">LinkedIn</a>
+          or <a rel="noopener" target="_new" href="https://github.com/sainithingarre">GitHub</a>
+          profiles. Your messages are important to me, and I strive to respond
+          promptly. Looking forward to connecting with you and discussing how we
+          can work together!</p>
+        <div class="contact-list">
+          <li><i class="bx bxs-send" style="color:#00eeff;">&nbsp;sngarre@gmail.com</i></li>
+          <li><i class="bx bxs-phone" style="color:#00eeff;">&nbsp;+91
+              8639754549</i></li>
+        </div>
+        <div class="contact-icons"> <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href=""><i class="bx bxl-twitter"></i></a> <a href=""><i class="bx bxl-instagram"></i></a>
+          <a href=""><i class="bx bxl-linkedin"></i></a> </div>
+      </div>
+      <div class="contact-form">
+        <form action=""> <input placeholder="Enter your Name" required="" type="">
+          <input placeholder="Enter your Email" required="" type="email"> <input
+
+            placeholder="Enter your Subject" type=""> <textarea name="" type=""
+
+cols="40" rows="10" placeholder="Enter your messege" required=""></textarea> <input
+
+value="submit" class="send" type="submit"> </form>
+      </div>
+    </section>
+    <div class="last-text">
+      <p>Developer @ Akash Dey © 2024</p>
+    </div>
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt" style="color:#000"></i></a>
+    <script src="main.js"></script>
+  </body>
+</html>
